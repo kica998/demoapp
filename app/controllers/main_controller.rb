@@ -1,5 +1,6 @@
 class MainController < ApplicationController
   def home
+    @categoryies = Category.all
   end
 
   def about
